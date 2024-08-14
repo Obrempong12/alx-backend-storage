@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''The module with tools for request caching and tracking.
+'''A module with tools for request caching and tracking.
 '''
 import redis
 import requests
@@ -8,7 +8,7 @@ from typing import Callable
 
 
 redis_store = redis.Redis()
-'''A module-level Redis instance.
+'''The module-level Redis instance.
 '''
 
 
